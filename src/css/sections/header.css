@@ -1,0 +1,36 @@
+.cabecalho {
+    padding: 30px 15px;
+}
+
+.cabecalho .logo {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    border: 2px solid var(--cor-branca);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho a:hover .logo {
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.cabecalho nav ul {
+    display: flex;
+}
+
+.cabecalho nav ul a {
+    color: var(--cor-branca);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.2s;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    user-select: none;
+}
