@@ -1,5 +1,5 @@
 .home .full-screen {
-    min-height: 83vh;
+    min-height: 86vh;
     padding: 50px 0;
 }
 
@@ -32,6 +32,21 @@
     font-size: var(--fonte-grande);
     margin-bottom: 10px;
 }
+
+.home .texto-home h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    margin-bottom: 20px;
+}
+
+.home .texto-home h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
 
 @media (max-width: 1280px) {
     .home .texto-home,
